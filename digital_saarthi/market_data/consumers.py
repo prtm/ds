@@ -13,8 +13,6 @@ class MarketDataConsumer(AsyncWebsocketConsumer):
             self.room_group_name,
             self.channel_name
         )
-        print(self.channel_name, self.room_group_name)
-
         await self.accept()
 
     async def disconnect(self, close_code):

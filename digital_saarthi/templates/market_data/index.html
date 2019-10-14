@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Market Data</title>
+</head>
+
+<body>
+    <pre id="market-data-log" style="word-wrap: break-word; white-space: pre-wrap;" data-folded="undefined">
+    {{ initial_data }}</pre>
+</body>
+<script>
+    var roomName = {{ room_name_json }};
+
+    var marketDataSocket = new WebSocket(
+        'ws://' + window.location.host +
+        '/ws/market-data/' + roomName + '/');
+
+    marketDataSocket.onmessage = function (e) {
+        var data = JSON.parse(e.data);
+        var message = data['message'];
+        document.querySelector('#market-data-log').innerHTML = (message + '\n');
+    };
+
+    marketDataSocket.onclose = function (e) {
+        console.error('Chat socket closed unexpectedly');
+    };
+</script>
+
+</html>

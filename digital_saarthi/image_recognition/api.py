@@ -1,3 +1,9 @@
+# stdlib
+import json
+
+# core django
+from django.conf import settings
+
 # third party
 from rest_framework.parsers import FileUploadParser
 from rest_framework.response import Response
@@ -17,7 +23,9 @@ class ImageUploadView(APIView):
             data=request.data)
 
         if image_recognition_serializer.is_valid():
-            image_recognition_serializer.save()
-            return Response(image_recognition_serializer.data, status=status.HTTP_201_CREATED)
+            # image_recognition_serializer.save()
+            file_path = str(settings.ROOT_DIR.path("demo_data.json"))
+            with open(file_path, 'r'):
+                return Response(json.load(), status=status.HTTP_201_CREATED)
         else:
             return Response(image_recognition_serializer.errors, status=status.HTTP_400_BAD_REQUEST)

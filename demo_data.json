@@ -1,0 +1,29 @@
+{
+    "Common Rust": {
+        "Pathogen Name": "Puccinia sorghii Schw.",
+        "Pathogen Geographical Distribution": "Jammu &Kashmir, Himachal Pradesh, Sikkim, Meghalaya, West Bengal, Punjab (Rabi), Haryana (Rabi), Rajasthan, Uttar Pradesh, Bihar (Rabi), Madhya Pradesh, Maharashtra, Andhra Pradesh, Karnataka, Tamil Nadu",
+        "Pathogen Life Cycle": "The life cycle of P. sorghi involves two hosts (maize and Oxalis species) and five spore stages (teliospores, basidiospores, spermatia, aeciospores and urediniospores). In tropical or subtropical regions, urediospores can overwinter and serve as the primary source of inoculum in subsequent seasons. Urediospores are disseminated by wind over vast distances (hundreds of kilometers) and frequently spread from tropical/subtropical regions to temperate regions in spring and summer when maize is cultivated. The sexual stage of the life cycle occurs predominantly in tropical and subtropical regions. Generally, urediospores germinate within 6 hours. Infection structures penetrate the host via stomata on leaf surfaces, stems, and ear sheaths. Chlorotic spots as a result of infection can arise in as little as 24 hours in favorable climatic conditions. In favorable weather conditions the disease cycle can be completed in 5 days.",
+        "Symptoms": "Pustules are abundant on leaves, frequently occurring in bands when the leaf tissue was in the whorl. The circular to elongate, golden brown to cinnamon brown pustules are sparsely scattered over both leaf surfaces and become brownish black as the plant matures. Pustules are dark brown in early stages of infection; later the epidermis is ruptured and the lesions turn black as the plant matures. Oxalis plants are (alternate host) are frequently infected with light orange coloured pustules.",
+        "Control": "1. Fungicide applications, useful when pustules first appear on the leaves. 2.Three sprays of Dithane M-45 @ 2-4 g/L beginning from first appearance of symptoms at 15 days interval can minimize the disease.",
+        "Prevention": "1. Use of resistant varieties is the most cost-effective mean of disease management. 2.Cultivate early maturing varieties.",
+        "Spread Mode": "The rust spread through sexually and asexually produced spores.",
+        "Primary Source": "Wind disseminated asexual spores (urediospores)",
+        "Secondary Source": "Repeated production of urediniospores",
+        "Disease Pathogen A Host": "Oxalis species (wood sorrel)",
+        "Disease Pathogen Congenial Environment": "The disease is common in subtropical, temperate and highland environment moderate temperature (16-25°C) and high relative humidity.",
+        "Occurence Period": "Kharif season"
+    },
+    "Northern Leaf Blight": {
+        "Pathogen Name": "Exserohilum turcicum (Pass) Leon.& Sugs.",
+        "Pathogen Geographical Distribution": "Jammu & Kashmir, Himachal Pradesh, Sikkim, West Bengal, Meghalaya, Tripura, Assam, Rajasthan, Uttar Pradesh, Bihar, Madhya Pradesh, Gujrat, Maharashtra, Andhra Pradesh, Karnataka, Tamil Nadu",
+        "Pathogen Life Cycle": "The pathogen overwinters as mycelium and chlamydospores in diseased crop debris. It starts sporulating in cool/moderate humid conditions (18-27°C) and conidia are disseminated by wind and rain splash to freshly planted maize. Secondary cycles of disease occur through dissemination of conidia produced in the same season and to the adjoining fields by rain splash and wind.",
+        "Symptoms": "An early symptom recognized early i.e. slightly oval water-soaked, small spots produced on leaves. These grow into elongate, long, elliptical, spindle shaped grayish green or tan lesions ranging from 2.5 to 15 cm. in length. They may appear first on the lower leaves and later on the diseases progresses upward on the plant. The disease can develop rapidly after anthesis resulting in complete blighting of leaves. In damp weather, large number of grayish black spores is produced on the lesions; lesions may form on the outer husks. Severe infection causes a prematurely death and gray appearance that resembles frost or drought injury.",
+        "Control": "1. Spraying with mancozeb @ 2 - 4gm/litre at 8-10 days interval.",
+        "Prevention": "1. Use resistant/ moderately resistant varieties/hybrids (Vivek 21, Vivek 23, Vivek 25, Pratap Kanchan 2). 2. Practise rotation of maize with non-host crops to reduce disease incidence. 3. Sanitation, clean plough down of infected crop debris.",
+        "Spread Mode": "The disease spread through overwintered infected resisue.",
+        "Primary Source": "Infected crop residue of previous season maize crop",
+        "Secondary Source": "Conidia produced in the infected crop.",
+        "Disease Pathogen Congenial Environment": "The disease is prevalent in areas where cooler condition prevails and maize is planted in high lands, winter planting in the plains as the cool/moderate humid conditions (18-27°C) favors disease developments. When infection occurs prior to and at silking stage and conditions are optimum, it may cause significant economic damage.",
+        "Occurence Period": "Kharif in North and Kharif & Rabi in South India"
+    }
+}
